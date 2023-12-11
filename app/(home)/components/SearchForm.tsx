@@ -16,7 +16,7 @@ export default function SearchForm({ onSearch }) {
       className=" flex flex-col items-center justify-between"
     >
       <Input
-        className="w-1/2 border rounded-sm p-4 border-slate-400"
+        className="w-1/2 border rounded-md p-4 border-slate-400"
         type="text"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
